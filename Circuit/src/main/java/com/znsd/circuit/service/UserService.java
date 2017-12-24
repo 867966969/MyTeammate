@@ -1,5 +1,5 @@
 package com.znsd.circuit.service;
 
-public class UserService {
+public interface UserService {
 
 }

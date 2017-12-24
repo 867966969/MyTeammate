@@ -22,7 +22,7 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
        
-	<context:component-scan base-package="com.znsd.circuit" />
+	<context:component-scan base-package="com.znsd.circuit"/>
 	<!-- 配置c3p0连接池属性 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close">
@@ -57,7 +57,7 @@
 	<!-- Spring 扫描DAO包 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!-- DAO包所在的包路径 -->
-		<property name="basePackage" value="com.ssm.dao" />
+		<property name="basePackage" value="com.znsd.circuit.dao" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 	<!-- 配置事务 -->
