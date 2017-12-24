@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-12122323	<%-- <%
+1212456dfg	<%-- <%
     response.sendRedirect("stu/login");
     %> --%>
 </body>
